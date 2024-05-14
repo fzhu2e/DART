@@ -86,7 +86,6 @@
    /
 
 &assim_tools_nml
-   filter_kind                     = 1,
    cutoff                          = 0.00001,
    sort_obs_inc                    = .false.,
    spread_restoration              = .false.,
@@ -178,3 +177,9 @@
    outlier_threshold        = -1.0,
 /
 
+
+&algorithm_info_nml
+/
+
+&probit_transform_nml
+/
